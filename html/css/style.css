@@ -184,12 +184,3 @@ button{
       --smaller-font-size: .813rem;
   }
 }
-@media screen and(width: 1024px){
-    .solid{
-      font-size: larger;
-
-    }
-  }
-
-}
-  
