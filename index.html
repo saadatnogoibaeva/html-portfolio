@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <title>
+    <link rel="stylesheet" href="css/style.css">
+<title>
   Saadat's portfolio</title>
   </head>
 <body>
@@ -33,17 +33,25 @@
   </div>
 
   <div>
-    <img src="./img/COHY7496.JPG" alt="me" width="300" height="300">
+    <script src="js/main.js"></script>
+    <img src="/img/COHY7496.JPG" alt="me" width="300" height="300">
   </div>
     <h2>Experience</h2>
     <section>
   <h3>Intellect school</h3>
   <i>teacher</i> at
-  <a target="_blank" href="https://intellectschool.edupage.org/"> intellect_school</a>
+ <button onclick="gotolink(this)" value="https://intellectschool.edupage.org/">intellect_school</button> 
+<p>кнопки работают, хоть курсор не выявляет!!!</p>
   <p>may 2020 - november 2021</p>
   <i>Social media marketer</i> at
-  <a target="_blank" href="https://www.instagram.com/brabus.kg_/">autoschool</a>
+  <button onclick="gotolink(this)" value="https://www.instagram.com/brabus.kg_/">autoschool</button>
   <p>may 2022 - july 2022</p>
+  <script>
+    function gotolink(link){
+      console.log(link.value);
+      window.open(link.value);
+    };
+  </script>
 
   </section>
   <div>
